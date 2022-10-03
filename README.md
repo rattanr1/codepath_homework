@@ -3,7 +3,7 @@
 **Challenges and Problems**:
 
 ### Installing VirtualBox and Kali
-<img src="vbox_kali.gif.gif" alt="Virtualbox Installation">
+<img src="vbox_kali(best).gif" alt="Virtualbox Installation">
 
 ### Running screenfetch
-<img src="screenfetch.gif.gif" alt="Running screenfetch">
+<img src="screenfetch(best).gif" alt="Running screenfetch">
