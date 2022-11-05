@@ -36,8 +36,7 @@ Description:
 
 ## Red
 
-Vulnerability #1:**Insecure Direct Object Reference**
-One of the three sites is missing code which would prevent some sensitive information from being made public. 
+Vulnerability #1:**Insecure Direct Object Reference** -- One of the three sites is missing code which would prevent some sensitive information from being made public. 
 Determine which color has the vulnerability. Then, figure out what the other two sites did correctly to prevent the information leak.
 
 ### Video Walkthrough
