@@ -31,6 +31,20 @@ Note:   What I put towards the end of the url for the specific salesperson
 /blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27
 ```
 
+Vulnerability #2: **Session Hijacking/Fixation** -- Two of the three websites expire their active sessions and require users to re-login every 30 minutes. That is probably too aggressive for the real world, but it is better than the third site which allows sessions to be a year old, and never regenerates the session ID, even when the user agent string changes. This makes it vulnerable to both session hijacking and session fixation attacks.
+
+There are many ways an attacker could get or set the session ID in the real world (XSS, sniffing WiFi packets, etc.). For this exercise, a PHP script has been provided to help you, "public/hacktools/change_session_id.php". You can load this script to find out the current session ID or to set it to a new one.
+
+Use two different web browsers (e.g., Firefox and Chrome). Let one browser be the attacker and the other the target. Choose if you want to attempt a session hijacking or session fixation. For hijacking, log the target in first, then give the logged-in session ID to the attacker. For fixation, get a session ID for the attacker, give it to the target, then the target will log in. In both cases, the attacker should now have access to the staff area.
+
+### Video Walkthrough
+
+    Here's a walkthrough of this vulnerability:
+
+<img src=
+
+Note: I opened up two Firefox tabs, one is BLUE and the other is RED. I logged into the BLUE site, and notice that the RED site was logged in as well!
+
 
 
 ## Green
@@ -44,18 +58,6 @@ Vulnerability #1: **Cross-Site Scripting** -- All three sites do a good job of p
 <img src="Vulnerability 1 - Cross-Site Scripting (Green).gif">
 
 Note: the false email shows up at the bottom, and I disabled the pop-ups that displays what I think was hundreds from other students doing this attack
-
-Vulnerability #2: **Username Enumeration** -- A careless developer mistake has created a username enumeration vulnerability. Determine which color has the vulnerability. You can use the existing username "jmonroe99" as a test. Next, figure out what mistake the developer made.
-
-### Video Walkthrough
-
-    Here's a walkthrough of this second vulnerability:
-
-<img src="
-
-Note: "jmonroe99" was still incorrect and the pop-up shows in bold
-
-
 
 
 ## Red
