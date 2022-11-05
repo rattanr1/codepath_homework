@@ -42,7 +42,7 @@ Use two different web browsers (e.g., Firefox and Chrome). Let one browser be th
 
     Here's a walkthrough of this vulnerability:
 
-<img src="Vulnerability 2 - Session Hijacking- Fixation (Blue).gif"
+<img src="Vulnerability 2 - Session Hijacking- Fixation (Blue).gif">
 
 Note: I opened up two Firefox tabs, one is BLUE and the other is RED. I logged into the BLUE site, and notice that the RED site was logged in as well!
 
