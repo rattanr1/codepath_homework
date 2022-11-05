@@ -50,5 +50,5 @@ Determine which color has the vulnerability. Then, figure out what the other two
 
 <img src="Vulnerability 1-Insecure Direct Object Reference (Red).gif">
 
-Note: I noticed changing the numbers in the end of the URL results in different contact person
+Note: I noticed changing the numbers in the end of the URL results in different contacts for the  salesperson
 
