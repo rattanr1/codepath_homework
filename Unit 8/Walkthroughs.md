@@ -23,7 +23,8 @@ Vulnerability #1: **SQL Injection** -- Most of the data input received by these 
 ### Video Walkthrough
 
     Here's a walkthrough of this vulnerability:
-<img src="blue-vuln1.gif">
+
+<img src="Vulnerability 1 - SQL Injection (Blue).gif">
 
 Note:   What I put towards the end of the url for the specific salesperson
 ```
