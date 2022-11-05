@@ -43,7 +43,5 @@ Determine which color has the vulnerability. Then, figure out what the other two
 
     Here's a walkthrough of this vulnerability:
 
-
-Description:
 <img src="Vulnerability 1-Insecure Direct Object Reference (Red).gif">
 
