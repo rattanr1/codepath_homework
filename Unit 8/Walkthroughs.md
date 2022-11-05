@@ -45,6 +45,18 @@ Vulnerability #1: **Cross-Site Scripting** -- All three sites do a good job of p
 
 Note: the false email shows up at the bottom, and I disabled the pop-ups that displays what I think was hundreds from other students doing this attack
 
+Vulnerability #2: **Username Enumeration** -- A careless developer mistake has created a username enumeration vulnerability. Determine which color has the vulnerability. You can use the existing username "jmonroe99" as a test. Next, figure out what mistake the developer made.
+
+### Video Walkthrough
+
+    Here's a walkthrough of this second vulnerability:
+
+<img src="
+
+Note: "jmonroe99" was still incorrect and the pop-up shows in bold
+
+
+
 
 ## Red
 
