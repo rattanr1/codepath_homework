@@ -31,6 +31,7 @@ Note:   What I put towards the end of the url for the specific salesperson
 /blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27
 ```
 
+
 Vulnerability #2: **Session Hijacking/Fixation** -- Two of the three websites expire their active sessions and require users to re-login every 30 minutes. That is probably too aggressive for the real world, but it is better than the third site which allows sessions to be a year old, and never regenerates the session ID, even when the user agent string changes. This makes it vulnerable to both session hijacking and session fixation attacks.
 
 There are many ways an attacker could get or set the session ID in the real world (XSS, sniffing WiFi packets, etc.). For this exercise, a PHP script has been provided to help you, "public/hacktools/change_session_id.php". You can load this script to find out the current session ID or to set it to a new one.
@@ -41,7 +42,7 @@ Use two different web browsers (e.g., Firefox and Chrome). Let one browser be th
 
     Here's a walkthrough of this vulnerability:
 
-<img src=
+<img src="Vulnerability 2 - Session Hijacking- Fixation (Blue).gif"
 
 Note: I opened up two Firefox tabs, one is BLUE and the other is RED. I logged into the BLUE site, and notice that the RED site was logged in as well!
 
