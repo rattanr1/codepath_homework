@@ -33,7 +33,7 @@ Vulnerability #1: **Cross-Site Scripting** -- All three sites do a good job of p
 
     Here's a walkthrough of this vulnerability:
 
-<img src="green-vuln1.gif">
+<img src="Vulnerability 1 - Cross-Site Scripting (Green).gif">
 
 
 ## Red
