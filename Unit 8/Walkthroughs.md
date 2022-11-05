@@ -25,7 +25,7 @@ Vulnerability #1: **SQL Injection** -- Most of the data input received by these 
     Here's a walkthrough of this vulnerability:
 <img src="blue-vuln1.gif">
 
-Note:   In the url for the specific salesperson
+Note:   What I put towards the end of the url for the specific salesperson
 ```
 /blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27
 ```
