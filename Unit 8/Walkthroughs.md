@@ -18,10 +18,11 @@ then write a short description of how to exploit it, and finally demonstrate it 
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: **SQL Injection** -- Most of the data input received by these websites is being sanitized properly. However, one of the three sites has one place where the input is not being sanitized before being used in an SQL query. Determine which color has the vulnerability.
 
-Description:
+### Video Walkthrough
 
+    Here's a walkthrough of this vulnerability:
 <img src="blue-vuln1.gif">
 
 
