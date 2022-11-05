@@ -36,6 +36,8 @@ Vulnerability #1: **Cross-Site Scripting** -- All three sites do a good job of p
 
 <img src="Vulnerability 1 - Cross-Site Scripting (Green).gif">
 
+Note: the false email shows up at the bottom, and I disabled the pop-ups that displays what I think was hundreds from other students doing this attack
+
 
 ## Red
 
@@ -47,4 +49,6 @@ Determine which color has the vulnerability. Then, figure out what the other two
     Here's a walkthrough of this vulnerability:
 
 <img src="Vulnerability 1-Insecure Direct Object Reference (Red).gif">
+
+Note:
 
