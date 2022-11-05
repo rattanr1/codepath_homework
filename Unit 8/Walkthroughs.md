@@ -44,7 +44,6 @@ Determine which color has the vulnerability. Then, figure out what the other two
     Here's a walkthrough of this vulnerability:
 
 
-
 Description:
 
 <img src="red-vuln1.gif">
